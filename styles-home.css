@@ -402,7 +402,7 @@ body.menu-expanded button path {
   -webkit-backdrop-filter: blur(14px);
   text-decoration: none;
 
-  border: solid #9b9a9a58 4px;
+  border: solid #9b9a9a58 2px;
 
   color: rgb(255, 255, 255);
   border-radius: 0.8rem;
@@ -884,13 +884,11 @@ footer .social-links {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 4rem;
-    
   }
 
   #services .card {
     width: 30%;
     flex-grow: 1;
-    
   }
 
   /*=== ABOUT =================================*/
@@ -937,7 +935,7 @@ footer .social-links {
   #contact img {
     position: relative;
     animation: desenhoAnimacao 2.8s infinite alternate-reverse linear;
-    filter: drop-shadow(-10px -10px 50px #6EDD84);
+    filter: drop-shadow(-10px -10px 50px #6edd84);
   }
   /*
   footer {
