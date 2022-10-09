@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #1e0731;
+  background-color: #341345;
 }
 
 .wrapper {
@@ -1295,7 +1295,7 @@ section {
 }
 
 section div {
-  background-color: #2a2634;
+  background-color: #3d3b41;
   padding: 32px;
   padding-top: 24px;
   border-radius: 8px;
@@ -1315,7 +1315,20 @@ section p {
 }
 
 .button {
-  background: linear-gradient(90deg, #9572fc 0%, #43e7ad 50.52%, #e2d45c 100%);
+  background: #341345;
+
+  border-radius: 1rem;
+
+  margin-bottom: 6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  text-decoration: none;
+
+  transition: background 200ms;
 
   width: fit-content;
   border: none;
@@ -1327,15 +1340,10 @@ section p {
 
   padding: 1rem 1rem;
 
-  color: black;
+  color: whitesmoke;
   font-size: 1.2rem;
   font-weight: 500;
   text-transform: uppercase;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.6rem;
 
   text-decoration: none;
 
@@ -1343,13 +1351,11 @@ section p {
 }
 
 .button:hover {
-  background-color: var(--brand-dark);
+  background-color: #200c2b;
+  filter: drop-shadow(-10px -10px 50px #341345);
 }
 /* animation */
 
 header div {
   animation: fromTop 0.7s 0.2s backwards;
 }
-
-
-

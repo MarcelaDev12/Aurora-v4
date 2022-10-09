@@ -383,10 +383,9 @@ body.menu-expanded button path {
 #services header h2 {
   margin-bottom: 6rem;
 }
-
 #services .content {
   background-image: url(./assets/cards-bg.svg);
-  background-position: 688.57%;
+  background-position: 475.4%;
 }
 
 #services .cards {
@@ -398,12 +397,12 @@ body.menu-expanded button path {
 #services .card {
   padding: 2.4rem;
   text-align: left;
-  background: #797878c2, transparent;
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
+  background: #a4a4a425;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
   text-decoration: none;
 
-  border: solid #94949458 4px;
+  border: solid #9b9a9a58 4px;
 
   color: rgb(255, 255, 255);
   border-radius: 0.8rem;
@@ -885,11 +884,13 @@ footer .social-links {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 4rem;
+    
   }
 
   #services .card {
     width: 30%;
     flex-grow: 1;
+    
   }
 
   /*=== ABOUT =================================*/
@@ -935,7 +936,8 @@ footer .social-links {
 
   #contact img {
     position: relative;
-    animation: desenhoAnimacao 2.1s infinite alternate-reverse linear;
+    animation: desenhoAnimacao 2.8s infinite alternate-reverse linear;
+    filter: drop-shadow(-10px -10px 50px #6EDD84);
   }
   /*
   footer {
