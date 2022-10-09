@@ -406,14 +406,13 @@ body.menu-expanded button path {
 
   color: rgb(255, 255, 255);
   border-radius: 0.8rem;
-  }
+}
 
-  #services .card:hover {
-    cursor: pointer;
-    border: solid #075b34ab 3px;
+#services .card:hover {
+  cursor: pointer;
+  border: solid #075b34ab 3px;
   filter: drop-shadow(-20px -20px 50px #23df87a1);
-  color:#60f1a6;
-  
+  color: #60f1a6;
 }
 
 #services .card p {
@@ -421,9 +420,8 @@ body.menu-expanded button path {
 }
 
 #services .card p:hover {
-  color:white
+  color: white;
 }
-
 
 #services .card h3 {
   margin-block: 1.6rem;
