@@ -140,7 +140,7 @@ main section:nth-child(3) {
   }
 }
 .clock {
-  background: #0299d06f;
+  background: #02afee36;
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border: 1.5px solid #ffffff92;
