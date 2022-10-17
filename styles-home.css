@@ -33,7 +33,9 @@ html {
   /* chrome://flags/#smooth-scrolling */
   scroll-behavior: smooth;
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 html,
 body {
   width: 100%;

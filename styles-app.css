@@ -7,7 +7,9 @@
 ul {
   list-style: none;
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 body {
   background-position: top center;
   background-size: 100% auto;

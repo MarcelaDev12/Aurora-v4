@@ -28,7 +28,9 @@
 
   --nav-height: 7.2rem;
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 html {
   /* chrome://flags/#smooth-scrolling */
   scroll-behavior: smooth;
