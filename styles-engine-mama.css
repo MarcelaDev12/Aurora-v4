@@ -7,7 +7,7 @@
 
 :root {
   --hue: 190;
-  --primary-color: hsl(148, 40%, 51%);
+  --primary-color: hsl(332, 58%, 41%);
   --headline: hsl(0, 0%, 100%);
   --paragraph: hsl(0, 0%, 60%);
   --gradient-color: linear-gradient(
@@ -43,7 +43,7 @@ body {
 body {
   font-family: 'Exo', sans-serif;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
 
   background-color: #181818;
 }
@@ -52,9 +52,10 @@ div .row {
   display: inline-flex;
   flex-direction: row;
   gap: 3.7rem;
-  padding: 1.5rem;
-  text-align: center;
+  padding: 1.9rem;
+  text-align: left;
   color: var(--primary-color);
+  filter: drop-shadow(-10px -10px 25px #530b2b98);
   text-decoration: none;
 }
 div .label {
@@ -68,7 +69,7 @@ div .label {
 }
 
 button {
-  background: var(--gradient-color);
+  background: #a62c65d2;
 
   border: none;
   border-radius: 1rem;
@@ -79,7 +80,7 @@ button {
 
   width: max-content;
 
-  color: black;
+  color: rgba(245, 245, 245, 0.789);
   font-size: 1.4rem;
   font-weight: 400;
   text-transform: uppercase;
@@ -95,19 +96,22 @@ button {
 }
 
 button:hover {
-  background-color: var(--brand-dark);
+  cursor: pointer;
+  color: #181818;
+  background-color: #43d0ef;
+  filter: drop-shadow(-8px -8px 25px #1c94af);
 }
 
 input {
   padding: 8px 16px;
-  border: none;
+  border: solid 1.5px #a62c6577;
   color: whitesmoke;
-  border-radius: 1rem;
-  background-color: #5c5c5c;
+  border-radius: 7px;
+  background-color: #5c5c5c72;
 }
 
 p {
-  color: whitesmoke;
+  color: rgba(245, 245, 245, 0.789);
 
   font-size: 2rem;
   padding-left: 45rem;
@@ -115,7 +119,8 @@ p {
 }
 
 #result.col-md-2.offset-md-5 .text-danger {
-  color: #e9e244;
+  color: #e9e144d0;
+  text-decoration: underline;
 }
 
 #result.col-md-2.offset-md-5 .text-success {
