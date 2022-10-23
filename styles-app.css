@@ -86,6 +86,11 @@ section ul {
 
   margin-top: 24px;
 }
+section .back-button {
+  color: #d1d1db;
+  margin-left: 25rem;
+  text-decoration: underline;
+}
 
 section ul li {
   transition: transform 0.3s;

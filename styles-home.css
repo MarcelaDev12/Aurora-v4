@@ -930,10 +930,15 @@ footer .social-links {
     width: 40.4rem;
   }
 
-  #contact img {
-    height: 39.7rem;
-    margin-top: -10rem;
+  #contact img.luiz {
+    height: 28.7rem;
+    margin-top: -8rem;
     margin-left: 10rem;
+  }
+  #contact img.wagner {
+    height: 30.7rem;
+    margin-top: -10rem;
+    margin-left: 35rem;
   }
 
   @keyframes desenhoAnimacao {
