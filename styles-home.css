@@ -22,7 +22,7 @@
   --brand-light-2: hsl(calc(var(--hue) + 10), 14%, 97%);
   --brand-dark: hsl(var(--hue), 100%, 14%);
 
-  --bg-dark: hsl(0, 0%, 10%);
+  --bg-dark: hsl(0, 0%, 0%);
 
   font-size: 62.5%; /* 1rem = 10px */
 
@@ -315,7 +315,7 @@ body.menu-expanded button path {
   content: '';
   width: 100%;
   height: calc(76% + var(--nav-height));
-  background-color: var(--dark-theme);
+  background-color: var(--dark-bg);
   display: block;
 
   position: absolute;
@@ -342,7 +342,16 @@ body.menu-expanded button path {
   width: 26.4rem;
   display: block;
   margin-inline: auto;
-  object-position: 0 2rem;
+  object-position: 0 2rem
+  padding: 0px;
+}
+#home gif {
+  width: 100rem;
+  height: 10rem;
+  
+  
+  margin-inline: auto;
+  object-position: 0 15 2rem;
 }
 
 #home .stats {
