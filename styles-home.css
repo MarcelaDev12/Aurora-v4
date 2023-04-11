@@ -100,6 +100,33 @@ section header h1 {
   margin-bottom: 2.4rem;
 }
 
+.main-text {
+  font-size: 3.4rem;
+    color: var(--headline);
+    line-height: 130%;
+  
+    margin-bottom: 2.4rem;
+}
+
+.main-text::after {
+  content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca 0.7s infinite;
+}
+
+@keyframes pisca {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
 section .content p {
   font-weight: 400;
   font-size: 1.6rem;
