@@ -428,17 +428,19 @@ body.menu-expanded button path {
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
+  position: relative;
 }
 
 #services .card {
   padding: 2.4rem;
   text-align: left;
-  background: #a4a4a425;
+  background: #a4a4a411;
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   text-decoration: none;
+  
 
-  border: solid #9b9a9a58 3px;
+  border: solid #9b9a9a58 2px;
 
   color: rgb(255, 255, 255);
   border-radius: 0.8rem;
@@ -452,15 +454,14 @@ body.menu-expanded button path {
 }
 
 #services .card p {
-  color: #ffffffb6;
+  color: whitesmoke;
 }
 
-#services .card p:hover {
-  color: white;
-}
+
 
 #services .card h3 {
   margin-block: 1.6rem;
+  color: #60f1a6;
 }
 
 /*=== ABOUT =================================*/

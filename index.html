@@ -488,5 +488,15 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./main.js"></script>
     <script src="./write-effect.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+      max: 20,
+      speed: 100,
+      glare: true,
+      "max-glare": 0.5,
+      "glare-prerender": false,
+    });
+    </script>
   </body>
 </html>
