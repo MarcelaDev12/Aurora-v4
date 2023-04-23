@@ -421,7 +421,7 @@ body.menu-expanded button path {
 }
 #services .content {
   background-image: url(./assets/cards-bg.svg);
-  background-position: 488.4%;
+  background-position: 238.4%;
 }
 
 #services .cards {
@@ -455,12 +455,14 @@ body.menu-expanded button path {
 
 #services .card p {
   color: whitesmoke;
+  font-weight: bold;
 }
 
 
 
 #services .card h3 {
   margin-block: 1.6rem;
+  font-weight: bold;
   color: #60f1a6;
 }
 
